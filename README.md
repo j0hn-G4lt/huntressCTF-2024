@@ -34,7 +34,7 @@ Below is our collection of writeups.
 ## Saturday, October 5, 2024
 
 - [unbelievable](HuntressCTF2024/Day05/unbelievable.md)
-- [ocean_locust](HuntressCTF2024/Day05/ocean_locust.md)
+- [ocean_locust](HuntressCTF2024/Day05/oceanlocust.md)
 
 ## Sunday, October 6, 2024
 
