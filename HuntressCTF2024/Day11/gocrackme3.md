@@ -1,3 +1,0 @@
-## GoCrackMe3
-
-aasdas

@@ -1,1 +1,0 @@
-## Strive Marish Leadman TypeCDR
