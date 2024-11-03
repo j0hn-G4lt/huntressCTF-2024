@@ -8,7 +8,7 @@ Enumerating further will lead eventually to the /**About** and /**Log** pages. N
 - Version: 1.0.0
 - Framework: .NET 6.0
 - Powered by Razor Pages | **Now with runtime compilation!**
-- 
+
 **Razor Pages**. Interesting, we did find out the web pages are .cshtml. A quick search online and I quickly found a helpful [resource](https://clement.notin.org/blog/2020/04/15/Server-Side-Template-Injection-(SSTI)-in-ASP.NET-Razor/). It appears that Razor Pages are vulnerable to simple C# injection. But where to inject? We do not have a text box to input a payload. So let's keep looking around.
 
 Let us try to see what happens if we upload a zip on **/Upload** (asdf for ID and Name)
