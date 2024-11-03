@@ -1,5 +1,9 @@
 ## OceanLocust
+Had to encode/decode a test.png file to determine encoding structure embedded by exe. By alphabetizing & concatenating biT[x] chunks, the encoded flag passed from exe could be reversed into a hex string, then to ASCII. So if inconspicuous.png was encoded, we now know how to reverse the hex, and can obtain this info:
+can provide that py script too if you want
+Concatenated Data: 0405350619040c375a55015f6d53005a0c375c06545c365d000058640307550b365157065929c2c8
 
+Problem is, the hex doesn't directly correlate to the same position you might expect. My solution was to bruteforce the md5 hash by encoding test.png with flag{aa..} -> flag{baa..} -> flag{caa..} altering the retrieved hex predictably. We can reconstruct the flag to match the same hex one byte at a time
 ```python
 from pwn import log
 import subprocess
@@ -93,4 +97,9 @@ for position in range(5, 37):  # Range inside flag{-}
         break
 
 progress_log.success(f"\n{flag_prefix}{md5_hash_part}{flag_suffix}")
+```
+```
+Executing this in the same folder as test.png and your exe will knock out the flag:
+[+] Brute-forcing flag: Brute-forcing complete
+[ ] Recovered flag: flag{fec87c690b8ec8d65b8bb10ee7bb65d0}
 ```
