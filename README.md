@@ -17,8 +17,8 @@ Below is our collection of writeups.
 
 ## Wednesday, October 2, 2024
 
-- [No Need For Brutus](HuntressCTF2024/Day02/No_Need_For_Brutus.md)
-- [Red Phish Blue Phish](HuntressCTF2024/Day02/Red_Phish_Blue_Phish.md)
+- [No Need For Brutus](HuntressCTF2024/Day02/no_need_for_brutus.md)
+- [Red Phish Blue Phish](HuntressCTF2024/Day02/red_phish_blue_phish.md)
 
 ## Thursday, October 3, 2024
 
