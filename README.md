@@ -10,7 +10,7 @@ Below is our collection of writeups.
 - [read_the_rules](HuntressCTF2024/Day01/read_the_rules.md)
 - [technical_support](HuntressCTF2024/Day01/technical_support.md)
 - [more_challenges_tomorrow](HuntressCTF2024/Day01/more_challenges_tomorrow.md)
-- [matryoshkaQR](HuntressCTF2024/Day01/matryoshkaQR.md)
+- [matryoshkaQR](HuntressCTF2024/Day01/matryoshkaqr.md)
 - [base64by32](HuntressCTF2024/Day01/base64by32.md)
 - [too_many_bits](HuntressCTF2024/Day01/too_many_bits.md)
 - [strange_calc](HuntressCTF2024/Day01/strange_calc.md)
