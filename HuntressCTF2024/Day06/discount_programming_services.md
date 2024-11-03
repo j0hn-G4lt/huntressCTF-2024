@@ -1,0 +1,3 @@
+## Discount Programming Services
+Just run that fucker? Seriously what's the challenge...
+Support says the challenge was broken and supposed to be done  using recursive decoding.
