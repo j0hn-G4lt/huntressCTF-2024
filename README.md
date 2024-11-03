@@ -1,6 +1,7 @@
 # HuntressCTF 2024
 
-Welcome to my write-ups for the HuntressCTF 2024! Below you will find links to each day's challenges.
+Frostbytes first HuntressCTF 2024!
+Below is our collection of writeups.
 
 ---
 
