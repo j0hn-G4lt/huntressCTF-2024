@@ -43,8 +43,9 @@ except Exception:
     pass
 finally:
     conn.close()
-```This will go through the challenge and eventually obtain the flag.
-```sh
+```
+This will go through the challenge and eventually obtain the flag.
+```
 ~~~~~~~~~~~~~~~~~~ 忍殺! ~~~~~~~~~~~~~~~~~~~~
 flag{a1ae4e5604576818132ce3bfebe95de5}
-	```
+```
