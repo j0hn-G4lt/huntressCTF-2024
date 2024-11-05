@@ -3,7 +3,8 @@ First installment of 3 binary reverse challenges written in Go. This one was jus
 
 Since this wasn't malware, executing is fine and prints out `Access Denied!`
 Seems like we want access, and no input is asked of us. So lets see load it into gdb and see whats going on with the **info functions** command.
-```
+
+```sh
 $ gdb ./GoCrackMe1
 *snip*
 (gdb) info functions
@@ -16,7 +17,7 @@ File /app/src/GoCrackMe1/GoCrackMe1.go:
 ```
 This tells us our main function is called `main.main`
 So lets stop it right there to find what the program is doing before it denies our access by adding a **break** and run it.
-```
+```sh
 (gdb) break main.main
 Breakpoint 1 at 0x48360f: file /app/src/GoCrackMe1/GoCrackMe1.go, line 22.
 (gdb) run
