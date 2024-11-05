@@ -55,7 +55,7 @@ Below is our collection of writeups.
 
 ## Wednesday, October 9, 2024
 
-- [GoCrackMe1](HuntressCTF2024/Day09/GoCrackMe1.md)
+- [GoCrackMe1](HuntressCTF2024/Day09/gocrackme1.md)
 - [i_cant_ssh](HuntressCTF2024/Day09/i_cant_ssh.md)
 
 ## Thursday, October 10, 2024
