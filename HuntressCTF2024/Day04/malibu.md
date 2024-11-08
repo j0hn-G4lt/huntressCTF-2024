@@ -2,7 +2,7 @@
 Well probably could've done this much faster had I avoided the age old over-complication. Anyways, we are given a hint before starting up the challenge:
 `What do you bring to the beach?`
 Following the instructions, we connect with the given `nc challenge.ctf.games PORT`. After hitting enter we see:
-```json
+```html
 HTTP/1.1 400 Bad Request
 Content-Type: text/plain; charset=utf-8
 Connection: close
@@ -10,13 +10,12 @@ Connection: close
 400 Bad Request   
 ```
 Seems it is expecting requests. Let's try a simple GET request to see where we are.
--# It does timeout quickly, so try to copy paste the contents for ease
-```json
+```html
 GET / HTTP/1.1
 Host: challenge.ctf.games
 ```
 It returns this:
-```json
+```html
 HTTP/1.1 403 Forbidden
 Accept-Ranges: bytes
 Content-Length: 254
@@ -71,7 +70,7 @@ Enter Secret Key: <blank>
 Added `myminio` successfully.
 ```
 Then used this command to dump everything onto my kali machine for analysis.
-```python
+```sh
 mc cp --recursive myminio/bucket .                   
 ...PSFCImJog: 249.31 KiB / 249.31 KiB ┃▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓┃ 69.58 KiB/s 3s
 ```
