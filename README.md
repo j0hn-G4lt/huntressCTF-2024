@@ -9,7 +9,6 @@ Below is our collection of writeups.
 
 - [matryoshkaQR](HuntressCTF2024/Day01/matryoshkaqr.md)
 - [base64by32](HuntressCTF2024/Day01/base64by32.md)
-- [too_many_bits](HuntressCTF2024/Day01/too_many_bits.md)
 - [strange_calc](HuntressCTF2024/Day01/strange_calc.md)
 
 ## Wednesday, October 2, 2024
