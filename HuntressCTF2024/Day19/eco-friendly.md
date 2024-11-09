@@ -3,7 +3,9 @@ The given file is NOT eco-friendly despite it's name. It contains two sections, 
 
 Funny enough, the creator had a video creating a similar thing [here](https://www.youtube.com/watch?v=8CiNx4nNqQ0).
 
-After deobfuscating the first time, we generated another version of essentially the same script, so it has been obfuscated multiple times. Since we don't know how many times, I created a loop that will continue as long as it can. Eventually we reach our flag.
+After deobfuscating the first time, we generated another version of essentially the same script, so it has been obfuscated multiple times. Since we don't know how many times, I created a loop that will continue as long as it can. 
+
+Save as a .ps1 and execute in powershell. Eventually we reach our flag.
 
 ```pwsh
 $encodedFilePath = "eco_friendly"  # File path to eco_friendly
