@@ -67,7 +67,7 @@ Looking closer we can start to understand what is happening a little better:
 - Flag is stored in 0x804a050 
 - Final '}' is added at 0x8049045
 
-So let us set a breakpoint after final append to flag at 0x8049048, and then try to read the location where flag is stored
+So let us set a breakpoint after final append to flag at 0x8049048, and then try to read the location where flag is stored after the XOR operations complete.
 ```bash
 gef➤  b *0x8049048
 Breakpoint 1 at 0x8049048
