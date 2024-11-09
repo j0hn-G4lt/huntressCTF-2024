@@ -158,6 +158,6 @@ Below is our collection of writeups.
 
 ## Thursday, October 31, 2024
 
-- [Palimpsest](HuntressCTF2024/Day31/Palimpsest.md)
+- [Palimpsest](HuntressCTF2024/Day31/palimpsest.md)
 
 ---
