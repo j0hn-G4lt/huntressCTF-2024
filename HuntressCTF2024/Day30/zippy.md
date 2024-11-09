@@ -22,7 +22,7 @@ Extracting file to /app/wwwroot/uploads/asdf/test.txt
 ```
 ***WITHOUT*** traversal checks eh? Well with the LFI we found and the name Zippy, we can try to do a zip slip exploit with a payload in C# like we saw in that PoC, tailored to our needs. Honestly can probably revshell, but instead of portfwding and all that, why not try to view it on the app itself? After checking the full path with the /**Browse** page, it appears the web pages themselves are .cshtml files located in `/app/Pages` and we can see familiar ones like About/Browse/Upload/Error/etc. We can certainly access these.
 
-SO we now have a plan. 
+We now have a plan. 
 1. Zip slip a Razor Page payload in C#
 2. Force app to unzip injected cshtml in specific location
 3. I decided to try and replace Error.cshtml as it would not affect other functions we are using. 
