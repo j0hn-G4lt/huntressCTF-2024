@@ -94,7 +94,7 @@ Below is our collection of writeups.
 - [linux_basics](HuntressCTF2024/Day17/linux_basics.md)
 - [the_void](HuntressCTF2024/Day17/the_void.md)
 - [moveable](HuntressCTF2024/Day17/moveable.md)
-- [baby buffer overflow](HuntressCTF2024/Day17/baby_buffer_overflow.md)
+- [baby buffer overflow](HuntressCTF2024/Day17/baby_buffer_overflow_-_32bit.md)
 
 ## Friday, October 18, 2024
 
