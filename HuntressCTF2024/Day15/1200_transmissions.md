@@ -1,5 +1,5 @@
 ## 1200 Transmissions
-Given a .wav file, it is clearly some sort of encoding when listening to playback. It sounds like dialup for the phreaks out there. 1200 is a clue to the baud rate which is how many symbols per second are recieved. Using a tool to make sense of this we can simply use this command: `minimodem -r 1200 -f transmissions.wav`
+Given a .wav file, it is clearly some sort of encoding when listening to playback. It sounds like dialup for the phreaks out there. 1200 is a clue to the baud rate which is how many symbols per second are recieved. Using a tool to make sense of this we can simply use this command: `minimodem -r 1200 -f transmissions.wav` to decode, and obtain a nice reference to the classic hacker movie Wargames.
 Output:
 ```python
 ### CARRIER 1200 @ 1200.0 Hz ###
