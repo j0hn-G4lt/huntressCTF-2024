@@ -19,8 +19,7 @@ if ($html -match '<!--(.*?)-->') {
 })
 ```
 
-`YmFja2Rvb3I6dGhpc19pc190aGVfaHR0cF9zZXJ2ZXJfc2VjcmV0` -> 
-`backdoor:this_is_the_http_server_secret`
+`YmFja2Rvb3I6dGhpc19pc190aGVfaHR0cF9zZXJ2ZXJfc2VjcmV0` --> `backdoor:this_is_the_http_server_secret`
 
 Instructions said to use curl and send the secret backdoor to server, which returns another base64 string.
 
