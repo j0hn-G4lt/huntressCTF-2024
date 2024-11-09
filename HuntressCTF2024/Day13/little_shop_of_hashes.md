@@ -7,8 +7,10 @@ Remote Registry
 pass the hash
 ### What is the full path of the binary that the threat actor used to access the privileges of a different user with explicit credentials?
 
-
+C:\\Users\\DeeDee\\Documents\\runasc.exe
 ### How many accounts were compromised by the threat actor?
 
 3
 ### What is the full path of the binary that was used to attempt a callback to the threat actor's machine?
+
+C:\Users\DeeDee\Documents\nc.exe
