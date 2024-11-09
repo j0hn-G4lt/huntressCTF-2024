@@ -1,6 +1,6 @@
 ## MOVEable
 
-Inspecting the source code we find a DBClean which improperly sanitzes user input, so it is susceptible to the rght SQLi. We also find that this uses Pickle files, which can be deserialized and RCE is possible. So we will need 2 SQLi to inject a user and session into the DB, then a third to upload the malicious pickle file for revshell. Reversing the DBClean() function made it easy to input a regular SQLi and have it converted to the right format in order to inject.
+Inspecting the source code we find that the DBClean() function improperly sanitzes user input, so it is susceptible to the right SQLi. We also find that this uses Pickle, which can be deserialized and RCE is possible. So we will need 2 SQLi to inject a user and session into the DB, then a third to upload the malicious pickle file for revshell. Reversing the DBClean() function made it easy to input a regular SQLi and have it converted to the right format in order to inject.
 
 ```python
 #!/usr/bin/env python3
