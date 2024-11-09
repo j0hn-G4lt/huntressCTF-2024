@@ -44,7 +44,7 @@ Below is our collection of writeups.
 
 ## Tuesday, October 8, 2024
 
-- [zimmer_down](HuntressCTF2024/Day08/zimmer_down.md)
+- [zimmerdown](HuntressCTF2024/Day08/zimmerdown.md)
 - [ran_somewhere](HuntressCTF2024/Day08/ran_somewhere.md)
 - [base-p-](HuntressCTF2024/Day08/base-p-.md)
 - [mystery](HuntressCTF2024/Day08/mystery.md)
