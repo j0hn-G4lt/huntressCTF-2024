@@ -19,7 +19,7 @@ Below is our collection of writeups.
 ## Thursday, October 3, 2024
 
 - [cattle](HuntressCTF2024/Day03/cattle.md)
-- [Nightmare on Hunt Street (Bundle)](HuntressCTF2024/Day03/Nightmare_on_Hunt_Street.md)
+- [Nightmare on Hunt Street (Bundle)](HuntressCTF2024/Day03/nightmare_on_hunt_street.md)
 - [russian_roulette](HuntressCTF2024/Day03/russian_roulette.md)
 
 ## Friday, October 4, 2024
