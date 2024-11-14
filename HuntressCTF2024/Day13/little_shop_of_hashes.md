@@ -1,7 +1,7 @@
 ## Little Shop of Hashes
 ### What is the name of the service that the attacker ran and stopped, which dumped hashes on the first compromised host?
 
-`Remote Registr`y
+`Remote Registry`
 ### What lateral movement technique did the threat actor use to move to the other machine?
 
 `pass the hash`
