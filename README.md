@@ -1,6 +1,6 @@
 # HuntressCTF 2024
 
-Frostbytes first HuntressCTF 2024!
+Frostbytes first HuntressCTF!
 Below is our collection of writeups.
 
 Still uploading and updating when I have time.
