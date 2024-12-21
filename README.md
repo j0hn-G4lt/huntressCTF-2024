@@ -3,6 +3,7 @@
 Frostbytes first HuntressCTF 2024!
 Below is our collection of writeups.
 
+Still uploading and updating as when I have time.
 ---
 
 ## Tuesday, October 1, 2024
