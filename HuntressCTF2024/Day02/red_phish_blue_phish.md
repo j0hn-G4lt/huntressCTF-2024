@@ -17,7 +17,9 @@ With that in mind lets try to get some more info on the situation over at PyrchD
 
 Visiting with a browser, we quickly find https://pyrchdata.com/team, useful for enumerating users as we already have a good idea of email address formatting. Sure enough lots of dorks in there.
 
-So. Lets use this page and scrape it for use in multiple attempts to phish from one of these dweebs. Inspecting the webpage, we see that user names are all in h3 tags, but also the profile pictures. Can parse from either but lets scrape it and then send emails over the smtp address accordingly (knockknock, whoisit, whositfor, pwnchline). Just kidding its HELO -> MAIL FROM -> RCPT TO -> DATA (which is how you initiate and send your message).
+So. Lets use this page and scrape it for use in multiple attempts to phish from one of these dweebs. 
+
+Inspecting the webpage, we see that user names are all in h3 tags, but also the profile pictures. Can parse from either but lets scrape it and then send emails over the smtp address accordingly (knockknock, whoisit, whositfor, pwnchline). Just kidding its HELO -> MAIL FROM -> RCPT TO -> DATA (which is how you initiate and send your message).
 
 Using the scraped emails (excluding Sarah) we communicate with the server like so, which stops after receiving 'flag{' in the response. Using python we can utilize `beautifulsoup` and `requests` for webscraping.
 
@@ -28,7 +30,7 @@ from bs4 import BeautifulSoup
 
 server = "challenge.ctf.games"
 port = PORT  # CHANGE TO WHAT YOURS SAYS
-dumb_bitch = "swilliams@pyrchdata.com"
+sarah = "swilliams@pyrchdata.com"
 
 message = """
 Subject: Stupid Test
@@ -71,9 +73,9 @@ def phish(sender, recipient, message):
 names = get_names()
 for name in names:
     sender = generate_email(name)
-    if sender and sender != dumb_bitch:
+    if sender and sender != sarah:
         print(f"Trying email: {sender}")
-        if phish(sender, dumb_bitch, message):
+        if phish(sender, sarah, message):
             break
 ```
 
