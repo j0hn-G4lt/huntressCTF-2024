@@ -1,6 +1,11 @@
 # HuntressCTF 2024
 
 Frostbytes first HuntressCTF!
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/j0hn-G4lt/huntressCTF-2024/refs/heads/main/Huntress2025.png" alt="Huntress 2025" width="400"/>
+</p>
+
 Below is our collection of writeups.
 
 Still uploading and updating when I have time.
